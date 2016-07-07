@@ -1,7 +1,7 @@
 import $ from 'jquery';
 import './style.scss';
 
-var number = 0;
+let number = 0;
 setInterval(function () {
   $('#main').html('You\'ve been on this webpage for ' + number + ' seconds!');
   number++;
